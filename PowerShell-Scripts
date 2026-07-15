@@ -1,1 +1,12 @@
+# PowerShell Scripts
 
+This repository will contain PowerShell scripts used to automate common IT administration tasks.
+
+## Planned Scripts
+
+- User account creation
+- Password reset
+- Disk space monitoring
+- Event log collection
+- Service monitoring
+- Software inventory
