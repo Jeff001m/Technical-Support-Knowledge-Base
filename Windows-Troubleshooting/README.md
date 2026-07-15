@@ -1,14 +1,51 @@
+# Windows Troubleshooting Guide
 
-# Windows Troubleshooting
+## 1. Slow Computer Performance
 
-This section contains common Windows issues and their resolutions.
+### Symptoms
+- Applications take a long time to open.
+- High CPU or memory usage.
+- Slow startup.
 
-## Topics
+### Troubleshooting Steps
+- Restart the computer.
+- Check Task Manager for resource-intensive processes.
+- Disable unnecessary startup programs.
+- Run Disk Cleanup.
+- Scan for malware.
+- Install Windows Updates.
 
-- Slow PC Performance
-- Blue Screen Errors
-- Windows Update Issues
-- Driver Problems
-- Login Problems
-- Startup Repair
-- Disk Cleanup
+---
+
+## 2. Windows Update Failure
+
+### Symptoms
+- Updates fail to install.
+- Error codes appear.
+
+### Resolution
+- Restart Windows Update Service.
+- Run the Windows Update Troubleshooter.
+- Clear the SoftwareDistribution folder.
+- Retry updates.
+
+---
+
+## 3. Blue Screen (BSOD)
+
+### Possible Causes
+- Faulty drivers
+- RAM issues
+- Disk errors
+- Hardware failure
+
+### Resolution
+- Check Event Viewer.
+- Update drivers.
+- Run Windows Memory Diagnostic.
+- Run:
+```
+
+```cmd
+sfc /scannow
+```
